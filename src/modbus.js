@@ -10,10 +10,6 @@ exports.client = {
     core: ModbusCore.compose(ModbusTcpClient),
     complete: ModbusCore.compose(ModbusTcpClient)
   },
-  serial: {
-    core: require('./modbus-serial-client.js'),
-    complete: require('./modbus-serial-client.js')
-  },
   handler: {
 
   }
